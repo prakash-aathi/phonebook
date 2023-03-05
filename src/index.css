@@ -1,0 +1,23 @@
+.sucess{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid green;
+    padding: 10px 0;
+    margin-bottom: 8px;
+    background-color: rgb(204, 202, 202);
+}
+
+.failure{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid red;
+    padding: 10px 0;
+    margin-bottom: 8px;
+    background-color: rgb(204, 202, 202);
+}
