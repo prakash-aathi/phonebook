@@ -1,4 +1,5 @@
 {
+  "homepage":"http://prakash-aathi.github.io/phonebook", 
   "name": "phonebook",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --port 3001 --watch db.json"
